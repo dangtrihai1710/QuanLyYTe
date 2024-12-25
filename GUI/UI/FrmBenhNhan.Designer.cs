@@ -239,7 +239,7 @@
             // 
             // FrmBenhNhan
             // 
-            this.ClientSize = new System.Drawing.Size(711, 441);
+            this.ClientSize = new System.Drawing.Size(982, 453);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnTimKiem);
             this.Controls.Add(this.btnXoa);

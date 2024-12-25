@@ -55,6 +55,7 @@
             this.dgvChiTietDonThuoc.Location = new System.Drawing.Point(12, 12);
             this.dgvChiTietDonThuoc.Name = "dgvChiTietDonThuoc";
             this.dgvChiTietDonThuoc.ReadOnly = true;
+            this.dgvChiTietDonThuoc.RowHeadersWidth = 51;
             this.dgvChiTietDonThuoc.RowTemplate.Height = 24;
             this.dgvChiTietDonThuoc.Size = new System.Drawing.Size(600, 200);
             this.dgvChiTietDonThuoc.TabIndex = 0;
@@ -64,43 +65,55 @@
             // 
             this.MaChiTiet.DataPropertyName = "MaChiTiet";
             this.MaChiTiet.HeaderText = "Mã Chi Tiết";
+            this.MaChiTiet.MinimumWidth = 6;
             this.MaChiTiet.Name = "MaChiTiet";
             this.MaChiTiet.ReadOnly = true;
+            this.MaChiTiet.Width = 125;
             // 
             // MaDonThuoc
             // 
             this.MaDonThuoc.DataPropertyName = "MaDonThuoc";
             this.MaDonThuoc.HeaderText = "Mã Đơn Thuốc";
+            this.MaDonThuoc.MinimumWidth = 6;
             this.MaDonThuoc.Name = "MaDonThuoc";
             this.MaDonThuoc.ReadOnly = true;
+            this.MaDonThuoc.Width = 125;
             // 
             // TenThuoc
             // 
             this.TenThuoc.DataPropertyName = "TenThuoc";
             this.TenThuoc.HeaderText = "Tên Thuốc";
+            this.TenThuoc.MinimumWidth = 6;
             this.TenThuoc.Name = "TenThuoc";
             this.TenThuoc.ReadOnly = true;
+            this.TenThuoc.Width = 125;
             // 
             // LieuLuong
             // 
             this.LieuLuong.DataPropertyName = "LieuLuong";
             this.LieuLuong.HeaderText = "Liều Lượng";
+            this.LieuLuong.MinimumWidth = 6;
             this.LieuLuong.Name = "LieuLuong";
             this.LieuLuong.ReadOnly = true;
+            this.LieuLuong.Width = 125;
             // 
             // SoLuong
             // 
             this.SoLuong.DataPropertyName = "SoLuong";
             this.SoLuong.HeaderText = "Số Lượng";
+            this.SoLuong.MinimumWidth = 6;
             this.SoLuong.Name = "SoLuong";
             this.SoLuong.ReadOnly = true;
+            this.SoLuong.Width = 125;
             // 
             // CachDung
             // 
             this.CachDung.DataPropertyName = "CachDung";
             this.CachDung.HeaderText = "Cách Dùng";
+            this.CachDung.MinimumWidth = 6;
             this.CachDung.Name = "CachDung";
             this.CachDung.ReadOnly = true;
+            this.CachDung.Width = 125;
             // 
             // txtMaChiTiet
             // 
@@ -179,7 +192,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(10, 233);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 17);
+            this.label1.Size = new System.Drawing.Size(77, 16);
             this.label1.TabIndex = 10;
             this.label1.Text = "Mã Chi Tiết:";
             // 
@@ -188,7 +201,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(10, 273);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 17);
+            this.label2.Size = new System.Drawing.Size(97, 16);
             this.label2.TabIndex = 11;
             this.label2.Text = "Mã Đơn Thuốc:";
             // 
@@ -197,7 +210,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(10, 313);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 17);
+            this.label3.Size = new System.Drawing.Size(75, 16);
             this.label3.TabIndex = 12;
             this.label3.Text = "Tên Thuốc:";
             // 
@@ -206,7 +219,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(10, 353);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 17);
+            this.label4.Size = new System.Drawing.Size(75, 16);
             this.label4.TabIndex = 13;
             this.label4.Text = "Liều Lượng:";
             // 
@@ -215,7 +228,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(10, 393);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 17);
+            this.label5.Size = new System.Drawing.Size(67, 16);
             this.label5.TabIndex = 14;
             this.label5.Text = "Số Lượng:";
             // 
@@ -224,7 +237,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(10, 433);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(74, 17);
+            this.label6.Size = new System.Drawing.Size(76, 16);
             this.label6.TabIndex = 15;
             this.label6.Text = "Cách Dùng:";
             // 
@@ -232,7 +245,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 461);
+            this.ClientSize = new System.Drawing.Size(982, 453);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -256,6 +269,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numSoLuong)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         private System.Windows.Forms.DataGridView dgvChiTietDonThuoc;

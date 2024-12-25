@@ -34,5 +34,16 @@ namespace LabYTe3
             FrmBacSi bacSi = new FrmBacSi();
             bacSi.ShowDialog();
         }
+
+        private void btnLichSuKham_Click(object sender, EventArgs e)
+        {
+            FrmLichSuKham f =new FrmLichSuKham();
+            f.ShowDialog();
+        }
+
+        private void btnKhoa_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

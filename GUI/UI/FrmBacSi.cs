@@ -48,7 +48,13 @@ namespace LabYTe3
              
             }
         }
-
+        private void Clear()
+        {
+            txtEmail.Text = "";
+            txtHoTen.Text = "";
+            txtMaKhoa.Text = "";
+            txtSoDienThoai.Text = "";
+        }
         private void btnThem_Click(object sender, EventArgs e)
         {
             try
@@ -116,12 +122,11 @@ namespace LabYTe3
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow row = dgvBacSi.Rows[e.RowIndex];
-          //      txtHoTen.Text = row.Cells[1].Value.ToString();
+                txtMaBacSi.Text = row.Cells[0].Value.ToString();
                 txtHoTen.Text = row.Cells[1].Value.ToString();
                 txtMaKhoa.Text = row.Cells[2].Value.ToString();
                 txtSoDienThoai.Text = row.Cells[3].Value.ToString();
                 txtEmail.Text = row.Cells[4].Value.ToString();
-                //  txtDangKy.Text = DateTime.Parse(row.Cells[7].Value.ToString()).ToString("yyyy-MM-dd");
             }
         }
     }
